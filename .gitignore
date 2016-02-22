@@ -6,7 +6,11 @@ _*
 *.plt
 *.swp
 *.swo
+*.*~
+*~
 .erlang.cookie
+.DS_Store
+rebar.lock
 ebin
 log
 erl_crash.dump
@@ -15,4 +19,7 @@ _rel
 _deps
 _plugins
 _tdeps
+_plt
 logs
+_build
+rebar3
